@@ -9,7 +9,7 @@ calc_mutation_rate.py receives two file paths as input:
 match between the two files. 
 
 ### Incubation Prediction
-calc_incubation.py receives five input variables:
+calc_incubation.py receives four input variables:
  
 1) Path to Fasta of aligned sequence. 
 2) Path to GenBank file.
