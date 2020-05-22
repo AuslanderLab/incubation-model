@@ -1,7 +1,7 @@
 # Incubation Predictor and Mutation Rates Calculator
 The code provided in this repository allows the user to calculate mutation rates and predict ssRNA viruses incubation times, as described in [1]
 
-## Citation
+### Citation
 [1] Ayal B. Gussow*, Noam Auslander*#, Yuri I. Wolf, Eugene V. Koonin# [Prediction of the virus incubation period for COVID-19 and future outbreaks](https://www.biorxiv.org/content/10.1101/2020.05.19.104513v1.full.pdf)
 (*) These authors contributed equally, (#) Corresponding authors
 
