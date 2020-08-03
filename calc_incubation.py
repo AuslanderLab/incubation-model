@@ -33,6 +33,21 @@ MODEL_PARAMS = {
         "intercept": 7.444444444444447,
         "scaler_mean": [9.22222222e+00, 3.67818551e+01, 2.98131326e-05, 6.57218909e-01],
         "scaler_var": [5.06172840e+00, 8.89159026e+00, 1.45909879e-09, 1.75575650e-04]
+    },
+
+
+    'Coronaviridae_Low':{
+        "coef": [0.43563559,  0.19719216, -0.07189989, 0.],
+        "intercept": 3.285714285714285,
+        "scaler_mean": [9.00000000e+00, 3.73629557e+01, 3.45446014e-05, 6.56935391e-01],
+        "scaler_var": [5.14285714e+00, 9.23125265e+00, 1.72812845e-09, 2.22493344e-04]
+    },
+
+    'Coronaviridae_High':{
+        "coef": [1.62589757,  0.94588343, -0.63930604, 0.07670065],
+        "intercept": 8.857142857142854,
+        "scaler_mean": [9.00000000e+00, 3.73629557e+01, 3.45446014e-05, 6.56935391e-01],
+        "scaler_var": [5.14285714e+00, 9.23125265e+00, 1.72812845e-09, 2.22493344e-04]
     }
 }
 
@@ -193,8 +208,9 @@ def create_model_data(genome_id, aln_seqdict, genbank, model_params):
 
     # create and standardize model data array
     model_data = np.array([num_genes, gc_content, pos_change_var, cai])
+    print(model_data)
     model_data = (model_data - model_params['scaler_mean']) / np.sqrt(model_params['scaler_var'])
-
+    print(model_data)
     return model_data
 
 
