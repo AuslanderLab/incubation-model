@@ -2,7 +2,7 @@
 The code provided in this repository allows the user to calculate mutation rates and predict ssRNA viruses incubation times, as described in [1]
 
 ### Citation
-[1] Ayal B. Gussow*, Noam Auslander*#, Yuri I. Wolf, Eugene V. Koonin# [Prediction of the virus incubation period for COVID-19 and future outbreaks](https://www.biorxiv.org/content/10.1101/2020.05.19.104513v1.full.pdf)
+[1] Ayal B. Gussow*, Noam Auslander*#, Yuri I. Wolf, Eugene V. Koonin# [Prediction of the incubation period for COVID-19 and future virus disease outbreaks](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-020-00919-9) BMC Biology, 2020
 (*) These authors contributed equally, (#) Corresponding authors
 
 
